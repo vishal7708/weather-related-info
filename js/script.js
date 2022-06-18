@@ -25,10 +25,12 @@ function setWeather() {
 
 // adding dark theme button
 
+let theme = document.querySelector("#theme");
+let html = document.querySelector("html");
 
-function changeThings() {
-    document.body.style.backgroundColor = "black";
-    document.body.style.color = "white";
-    document.querySelector("#theme_btn").innerHTML = 'Light Mode';
+function update(bgcolor, txtcolor) {
+    html.style.backgroundColor = bgcolor;
+    html.style.color = txtcolor;
 }
 
+theme.addEventListener('change', () => (theme.value === 'black') ? update('black', 'white'): update('white', 'black'));

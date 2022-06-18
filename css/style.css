@@ -13,7 +13,7 @@
     /* background-color: red; */
 } 
 
-#theme_btn{
+#theme{
     
     cursor: pointer;
     font-weight: 1000;
@@ -25,7 +25,7 @@
     background-color: #B25068;
 }
 
-#theme_btn:hover {
+#theme:hover {
     background-color: #774360;
 }
 
