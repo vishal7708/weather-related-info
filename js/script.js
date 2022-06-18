@@ -18,3 +18,12 @@ function setWeather() {
         para.textContent = '';
     }
 }
+
+// adding dark theme button
+
+
+function changeThings() {
+    document.body.style.backgroundColor = "black";
+    document.body.style.color = "white";
+    
+}

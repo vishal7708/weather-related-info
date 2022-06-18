@@ -1,0 +1,24 @@
+.weather_select {
+    /* display: flex;
+    justify-content: space-between; */
+    width: 100%;
+    /* display: inline-block; */
+    /* background-color: red; */
+} 
+
+#theme_btn{
+    
+    cursor: pointer;
+    font-weight: 1000;
+    color: #fff;
+    border: 0;
+    padding: 8px 12px;
+    border-radius: 10px;
+    float: right;
+    background-color: #B25068;
+}
+
+#theme_btn:hover {
+    background-color: #774360;
+}
+
