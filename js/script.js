@@ -19,11 +19,16 @@ function setWeather() {
     }
 }
 
+
+
+
+
 // adding dark theme button
 
 
 function changeThings() {
     document.body.style.backgroundColor = "black";
     document.body.style.color = "white";
-    
+    document.querySelector("#theme_btn").innerHTML = 'Light Mode';
 }
+
